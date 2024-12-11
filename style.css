@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #assessment {
+    margin-top: 2em;
+  }
+  
+/* Alinhar os rótulos à esquerda */
+.form-label {
+  display: block; /* Garante que cada rótulo ocupa uma linha inteira */
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-bottom: 5px; /* Adiciona um espaçamento entre o rótulo e o campo */
+  font-weight: bold; /* Opcional: deixa os rótulos em negrito para maior clareza */
+}
+
+/* Adiciona um espaço entre os campos de entrada */
+input[type="text"] {
+  margin-bottom: 15px; /* Espaçamento entre os campos */
+  width: 50%; /* Opcional: ajusta o tamanho do campo */
+  padding: 8px; /* Adiciona espaçamento interno para melhor usabilidade */
+  box-sizing: border-box; /* Garante que o padding não afeta a largura */
+}
+
+/* Estilo para os botões da seção de categorias */
+#category-selection button {
+  margin-bottom: 15px; /* Aumenta o espaçamento vertical entre os botões */
+  margin-right: 10px; /* Adiciona espaçamento horizontal caso fiquem lado a lado */
+  padding: 10px 15px; /* Ajusta o tamanho interno para melhor aparência */
+}
